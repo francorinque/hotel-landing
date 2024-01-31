@@ -1,0 +1,8 @@
+export { default as Nav } from "./Nav"
+export { default as Hero } from "./Hero"
+export { default as Recommended } from "./Recommended/Recommended"
+export { default as Rooms } from "./Rooms/Rooms"
+export { default as Events } from "./Events/Events"
+export { default as Services } from "./Services/Services"
+export { default as Review } from "./Review"
+export { default as Footer } from "./Footer/Footer"

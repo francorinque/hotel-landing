@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+:root {
+  --colorWhite: #f7f4f4;
+  --colorBlack: #181818;
+  --colorBrown: #ae9672;
+  --regular: 300;
+  --semibold: 600;
+  --bold: 800;
+  --subtitleSize: 40px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--colorWhite);
+  color: var(--colorBlack);
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--colorBrown);
+  background-color: var(--colorWhite);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+}
