@@ -289,7 +289,7 @@ const SERVICES_DATA = [
     id: uuidv4(),
     title: "Transporte",
     image:
-      "https://res.cloudinary.com/dgdcfmnnx/image/upload/v1706703537/hotel/services/yeikvntecsxvdshsgqwx.webp",
+      "https://res.cloudinary.com/dgdcfmnnx/image/upload/v1706719881/hotel/services/xyul2umw35kvv8evv9vl.webp",
   },
 ]
 
