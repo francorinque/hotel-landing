@@ -75,7 +75,7 @@ const RecommendedItem = ({ title, data }) => {
               <CardMedia
                 component="img"
                 image={item.image}
-                alt={`Image of the ${item.name}`}
+                alt={`Producto recomendado: ${item.name}`}
                 sx={style.imageStyle}
               />
               <CardContent sx={style.contentStyle}>

@@ -33,7 +33,7 @@ const ServiceItem = ({ id, title, image }) => {
           component="img"
           height={"100px"}
           image={image}
-          alt={`Serivicio ${title}`}
+          alt={`Ofrecemos el servicio: ${title}`}
           sx={style.cardImgStyle}
         />
         <CardContent sx={style.cardContentStyle}>

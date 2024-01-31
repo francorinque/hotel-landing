@@ -51,7 +51,7 @@ const RoomItem = ({ name, image, paragraphs }) => {
       <CardMedia
         component="img"
         image={image}
-        alt={`Image of the room ${name}`}
+        alt={`Foto de la habitación: ${name} para reservar`}
         sx={style.imageStyle}
       />
       <CardContent sx={style.cardContentStyle}>
